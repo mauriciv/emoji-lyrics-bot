@@ -22,6 +22,7 @@ import os
 import tweepy
 from secrets import *
 from time import gmtime, strftime
+import translate
 
 
 # ====== Individual bot configuration ==========================
@@ -33,9 +34,9 @@ logfile_name = bot_username + ".log"
 
 def create_tweet():
     """Create the text of the tweet you want to send."""
-    # Replace this with your code!
-    text = ""
+    text = translate.get_tweet_text()
     return text
+
 
 
 def tweet(text):
@@ -60,6 +61,7 @@ def log(message):
     with open(os.path.join(path, logfile_name), 'a+') as f:
         t = strftime("%d %b %Y %H:%M:%S", gmtime())
         f.write("\n" + t + " " + message)
+
 
 
 if __name__ == "__main__":
