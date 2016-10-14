@@ -16,10 +16,14 @@ def get_lyrics():
     network = pylast.LastFMNetwork(api_key = LF_API_KEY, api_secret = LF_SHARED_SECRET,
                     username = LF_USERNAME, password_hash = password_hash)
     print('Getting artist.')
-    top_artists = network.get_top_artists()
-    random_artist = network.get_artist(random.choice(top_artists).item)
-    print("Got: " + str(random_artist))
 
+    artists_dict = None
+    with open(os.path.join(__location__, 'artists.json')) as artists_file:
+        artists_dict = json.load(artists_file)
+    random_artist_name = random.choice(list(artists_dict.keys()))
+
+    random_artist = network.get_artist(random_artist_name)
+    print("Got: " + str(random_artist))
 
     print('Getting album')
     top_albums = random_artist.get_top_albums()
