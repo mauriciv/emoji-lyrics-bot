@@ -110,7 +110,12 @@ def get_tweetable_lyrics(artist_and_title, song_lyrics):
         emoji_count = get_emoji_count(tweet)
         if emoji_count > minimum_emoji_amount:
             possible_tweets.append(tweet)
-    return random.choice(possible_tweets)
+    if possible_tweets:
+        return random.choice(possible_tweets)
+    else:
+        print("The lyrics have too few replaceable words.")
+        sys.exit()
+
 
 def get_emoji_count(text):
     emoji_count = 0
