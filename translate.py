@@ -1,16 +1,18 @@
 import json
 import sys
 import re
+import os
 import lyrics
 import random
 from pprint import pprint
 
+__location__ = os.path.realpath(os.path.join(
+    os.getcwd(), os.path.dirname(__file__)))
+
 emojis = ''
 
-with open('emojis.json') as emojis_file:
+with open(os.path.join(__location__, 'emojis.json')) as emojis_file:
     emojis = json.load(emojis_file)
-
-
 
 
 def get_tweet_text():
@@ -41,8 +43,6 @@ def get_tweet_text():
     return tweetable_text + artist_and_title
 
 
-
-
 def get_matched_emojis(word):
     matched_emojis = []
     for emoji in emojis.items():
@@ -57,6 +57,7 @@ def get_matched_emojis(word):
                     matched_emojis.append(pluralize_emoji(emoji))
 
     return matched_emojis
+
 
 def pluralize_emoji(emoji):
     dummy_emoji = ('dummy_code', {'char': 'dummy_char'})

@@ -1,8 +1,15 @@
 import pylast
 import random
+import json
+import os
 from pprint import pprint
 from secrets import *
 from PyLyrics import *
+import sys
+
+__location__ = os.path.realpath(os.path.join(
+    os.getcwd(), os.path.dirname(__file__)))
+
 
 def get_lyrics():
     password_hash = pylast.md5(LF_PASSWORD)
