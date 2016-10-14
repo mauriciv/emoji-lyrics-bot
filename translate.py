@@ -22,14 +22,14 @@ def get_tweet_text():
     while song_info == None:
         try:
             song_info = lyrics.get_lyrics()
-        except Exception as e:
-            print('No lyrics found, retrying')
+        except ValueError as ve:
+            # No lyrics found, retry
+            print(str(ve))
+            song_info = None
             continue
-
     artist = song_info[0]
     song_title = song_info[1]
     song_lyrics = song_info[2]
-
 
     translated_lyrics = None
     if has_replaceable_words(song_lyrics):
