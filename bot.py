@@ -19,9 +19,9 @@
 # SOFTWARE.
 
 import os
+from time import gmtime, strftime, localtime
 import tweepy
 from secrets import *
-from time import gmtime, strftime
 import translate
 
 
@@ -36,7 +36,6 @@ def create_tweet():
     """Create the text of the tweet you want to send."""
     text = translate.get_tweet_text()
     return text
-
 
 
 def tweet(text):
@@ -59,7 +58,7 @@ def log(message):
     """Log message to logfile."""
     path = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))
     with open(os.path.join(path, logfile_name), 'a+') as f:
-        t = strftime("%d %b %Y %H:%M:%S", gmtime())
+        t = strftime("%d %b %Y %H:%M:%S", localtime())
         f.write("\n" + t + " " + message)
 
 
