@@ -13,8 +13,8 @@ __location__ = os.path.realpath(os.path.join(
 
 def get_lyrics():
     password_hash = pylast.md5(LF_PASSWORD)
-    network = pylast.LastFMNetwork(api_key = LF_API_KEY, api_secret = LF_SHARED_SECRET,
-                    username = LF_USERNAME, password_hash = password_hash)
+    network = pylast.LastFMNetwork(api_key=LF_API_KEY, api_secret=LF_SHARED_SECRET,
+                                   username=LF_USERNAME, password_hash=password_hash)
     print('Getting artist.')
 
     artists_dict = None

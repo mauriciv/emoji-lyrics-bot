@@ -68,7 +68,7 @@ def pluralize_emoji(emoji):
 def has_replaceable_words(text):
     for word in text.split():
         matches = get_matched_emojis(word)
-        if matches: # list is not empty, there is at least one replaceable word
+        if matches:  # list is not empty, there is at least one replaceable word
             return True
 
     return False
@@ -82,9 +82,9 @@ def translate(text):
 
         if matches:
             random_emoji = random.choice(matches)
-            temp_lyrics = re.sub(r'\b'+word+r'\b', random_emoji[1]['char'], temp_lyrics, flags=re.I)
+            temp_lyrics = re.sub(
+                r'\b'+word+r'\b', random_emoji[1]['char'], temp_lyrics, flags=re.I)
     return temp_lyrics
-
 
 
 def get_tweetable_lyrics(artist_and_title, song_lyrics):
