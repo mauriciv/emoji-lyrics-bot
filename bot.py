@@ -64,5 +64,8 @@ def log(message):
 
 
 if __name__ == "__main__":
+    print()
+    t = strftime("%d %b %Y %H:%M:%S", localtime())
+    print('At: ' + t)
     tweet_text = create_tweet()
     tweet(tweet_text)
