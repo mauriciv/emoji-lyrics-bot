@@ -6424,5 +6424,25 @@
       "keywords": ["fast"],
       "char": "🏃💨",
       "category": "_custom"
+  },
+  "parents": {
+      "keywords": ["parents"],
+      "char": "👩👨",
+      "category": "_custom"
+  },
+  "magic": {
+      "keywords": ["magic"],
+      "char": "🎩✨🐰",
+      "category": "_custom"
+  },
+  "poker": {
+      "keywords": ["poker"],
+      "char": "♠️♣️♥️♦️",
+      "category": "_custom"
+  },
+  "children": {
+      "keywords": ["children"],
+      "char": "👦👧",
+      "category": "_custom"
   }
 }
