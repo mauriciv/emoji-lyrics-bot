@@ -52,8 +52,7 @@ def get_matched_emojis(word):
                 matched_emojis.append(emoji)
             else:
                 plural1 = keyword + 's'
-                plural2 = keyword + 'es'
-                if word == plural1 or word == plural2:
+                if word == plural1:
                     matched_emojis.append(pluralize_emoji(emoji))
 
     return matched_emojis
