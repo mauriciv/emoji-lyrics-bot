@@ -131,7 +131,7 @@
     "category": "people"
   },
   "sunglasses": {
-    "keywords": ["cool", "smile", "summer", "beach", "sunglass"],
+    "keywords": ["cool", "smile", "beach", "sunglass"],
     "char": "😎",
     "category": "people"
   },
@@ -361,12 +361,12 @@
     "category": "people"
   },
   "japanese_ogre": {
-    "keywords": ["monster", "red", "mask", "halloween", "scary", "creepy", "devil", "demon", "japanese", "ogre"],
+    "keywords": ["monster", "mask", "scary", "creepy", "devil", "demon", "ogre"],
     "char": "👹",
     "category": "people"
   },
   "japanese_goblin": {
-    "keywords": ["red", "evil", "mask", "monster", "scary", "creepy", "japanese", "goblin"],
+    "keywords": ["evil", "mask", "monster", "goblin"],
     "char": "👺",
     "category": "people"
   },
@@ -376,7 +376,7 @@
     "category": "people"
   },
   "ghost": {
-    "keywords": ["halloween", "spooky", "scary"],
+    "keywords": ["spooky", "scary", "ghost"],
     "char": "👻",
     "category": "people"
   },
@@ -626,7 +626,7 @@
     "category": "people"
   },
   "person_with_blond_hair": {
-    "keywords": ["man", "male", "boy", "blonde", "guy", "person"],
+    "keywords": ["man", "male", "blonde", "guy", "person"],
     "char": "👱",
     "category": "people"
   },
@@ -681,7 +681,7 @@
     "category": "people"
   },
   "princess": {
-    "keywords": ["girl", "princess", "female", "blond", "crown", "royal", "queen"],
+    "keywords": ["princess", "queen"],
     "char": "👸",
     "category": "people"
   },
@@ -701,7 +701,7 @@
     "category": "people"
   },
   "dancer": {
-    "keywords": ["female", "girl", "woman", "dancer", "dance"],
+    "keywords": ["female", "woman", "dancer", "dance"],
     "char": "💃",
     "category": "people"
   },
@@ -731,7 +731,7 @@
     "category": "people"
   },
   "information_desk_person": {
-    "keywords": ["female", "girl", "woman", "human"],
+    "keywords": ["female", "woman", "human"],
     "char": "💁",
     "category": "people"
   },
@@ -741,12 +741,12 @@
     "category": "people"
   },
   "ok_woman": {
-    "keywords": ["women", "girl", "female", "human", "woman"],
+    "keywords": ["women", "female", "human", "woman"],
     "char": "🙆",
     "category": "people"
   },
   "raising_hand": {
-    "keywords": ["female", "girl", "woman"],
+    "keywords": ["female", "woman"],
     "char": "🙋",
     "category": "people"
   },
@@ -756,17 +756,17 @@
     "category": "people"
   },
   "person_frowning": {
-    "keywords": ["female", "girl", "woman", "sad", "depressed", "discouraged", "unhappy"],
+    "keywords": ["female", "woman", "sad", "depressed", "discouraged", "unhappy"],
     "char": "🙍",
     "category": "people"
   },
   "haircut": {
-    "keywords": ["female", "girl", "woman"],
+    "keywords": ["female", "haircut", "woman"],
     "char": "💇",
     "category": "people"
   },
   "massage": {
-    "keywords": ["female", "girl", "woman", "head"],
+    "keywords": ["female", "massage", "woman", "head"],
     "char": "💆",
     "category": "people"
   },
@@ -1281,7 +1281,7 @@
     "category": "animals_and_nature"
   },
   "dromedary_camel": {
-    "keywords": ["dromedary", "desert", "hump"],
+    "keywords": ["dromedary", "hump"],
     "char": "🐪",
     "category": "animals_and_nature"
   },
@@ -1406,7 +1406,7 @@
     "category": "animals_and_nature"
   },
   "palm_tree": {
-    "keywords": ["vegetable", "tree", "summer", "beach", "mojito"],
+    "keywords": ["vegetable", "tree", "beach", "mojito"],
     "char": "🌴",
     "category": "animals_and_nature"
   },
@@ -1446,7 +1446,7 @@
     "category": "animals_and_nature"
   },
   "fallen_leaf": {
-    "keywords": ["nature", "leaf", "vegetable", "leaves"],
+    "keywords": ["nature", "leaf", "vegetable"],
     "char": "🍂",
     "category": "animals_and_nature"
   },
@@ -1476,7 +1476,7 @@
     "category": "animals_and_nature"
   },
   "tulip": {
-    "keywords": ["flower", "tulip", "summer", "spring"],
+    "keywords": ["flower", "tulip", "spring"],
     "char": "🌷",
     "category": "animals_and_nature"
   },
@@ -1506,7 +1506,7 @@
     "category": "animals_and_nature"
   },
   "jack_o_lantern": {
-    "keywords": ["halloween", "pumpkin", "creepy", "fall"],
+    "keywords": ["pumpkin"],
     "char": "🎃",
     "category": "animals_and_nature"
   },
@@ -1626,12 +1626,12 @@
     "category": "animals_and_nature"
   },
   "comet": {
-    "keywords": ["space"],
+    "keywords": ["comet"],
     "char": "☄",
     "category": "animals_and_nature"
   },
   "sunny": {
-    "keywords": ["weather", "sunny", "sun", "brightness", "summer", "beach", "spring"],
+    "keywords": ["sunny", "sun"],
     "char": "☀️",
     "category": "animals_and_nature"
   },
@@ -1641,7 +1641,7 @@
     "category": "animals_and_nature"
   },
   "partly_sunny": {
-    "keywords": ["weather", "nature", "cloudy", "morning", "fall", "spring"],
+    "keywords": ["weather", "cloudy", "morning"],
     "char": "⛅",
     "category": "animals_and_nature"
   },
@@ -1656,7 +1656,7 @@
     "category": "animals_and_nature"
   },
   "cloud": {
-    "keywords": ["weather", "cloud"],
+    "keywords": ["cloud"],
     "char": "☁️",
     "category": "animals_and_nature"
   },
@@ -1691,7 +1691,7 @@
     "category": "animals_and_nature"
   },
   "snowflake": {
-    "keywords": ["winter", "season", "cold", "weather", "christmas", "xmas"],
+    "keywords": ["cold", "snowflake"],
     "char": "❄️",
     "category": "animals_and_nature"
   },
@@ -1701,12 +1701,12 @@
     "category": "animals_and_nature"
   },
   "snowman": {
-    "keywords": ["winter", "season", "cold", "weather", "christmas", "xmas", "frozen", "without_snow"],
+    "keywords": ["cold", "frozen", "snowman"],
     "char": "⛄",
     "category": "animals_and_nature"
   },
   "snowman_with_snow": {
-    "keywords": ["winter", "season", "cold", "weather", "christmas", "xmas", "frozen"],
+    "keywords": ["cold", "christmas", "frozen", "snowman"],
     "char": "☃",
     "category": "animals_and_nature"
   },
@@ -1726,7 +1726,7 @@
     "category": "animals_and_nature"
   },
   "fog": {
-    "keywords": ["weather", "fog"],
+    "keywords": ["fog"],
     "char": "🌫",
     "category": "animals_and_nature"
   },
@@ -1736,7 +1736,7 @@
     "category": "animals_and_nature"
   },
   "umbrella": {
-    "keywords": ["rainy", "weather", "umbrella"],
+    "keywords": ["rainy", "umbrella"],
     "char": "☔",
     "category": "animals_and_nature"
   },
@@ -2166,17 +2166,17 @@
     "category": "activity"
   },
   "ski": {
-    "keywords": ["sports", "winter", "cold", "snow", "ski"],
+    "keywords": ["sports", "ski"],
     "char": "🎿",
     "category": "activity"
   },
   "skier": {
-    "keywords": ["sports", "winter", "snow", "ski"],
+    "keywords": ["sports", "ski"],
     "char": "⛷",
     "category": "activity"
   },
   "snowboarder": {
-    "keywords": ["sports", "winter", "snowboard"],
+    "keywords": ["sports", "snowboard"],
     "char": "🏂",
     "category": "activity"
   },
@@ -2706,7 +2706,7 @@
     "category": "travel_and_places"
   },
   "snow_capped_mountain": {
-    "keywords": ["mountain", "environment", "winter", "cold"],
+    "keywords": ["mountain", "environment", "cold"],
     "char": "🏔",
     "category": "travel_and_places"
   },
@@ -2761,12 +2761,12 @@
     "category": "travel_and_places"
   },
   "desert": {
-    "keywords": ["desert", "warm", "saharah"],
+    "keywords": ["desert", "sand", "saharah"],
     "char": "🏜",
     "category": "travel_and_places"
   },
   "beach_with_umbrella": {
-    "keywords": ["beach", "summer", "sand"],
+    "keywords": ["beach", "sand"],
     "char": "🏖",
     "category": "travel_and_places"
   },
@@ -2971,7 +2971,7 @@
     "category": "objects"
   },
   "keyboard": {
-    "keywords": ["keyboard", "computer", "type", "input"],
+    "keywords": ["keyboard"],
     "char": "⌨",
     "category": "objects"
   },
@@ -3141,12 +3141,12 @@
     "category": "objects"
   },
   "battery": {
-    "keywords": ["power", "energy", "battery"],
+    "keywords": ["energy", "battery"],
     "char": "🔋",
     "category": "objects"
   },
   "electric_plug": {
-    "keywords": ["charger", "power", "plug"],
+    "keywords": ["charger", "cord", "plug"],
     "char": "🔌",
     "category": "objects"
   },
@@ -3361,7 +3361,7 @@
     "category": "objects"
   },
   "thermometer": {
-    "keywords": ["weather", "temperature", "hot", "cold"],
+    "keywords": ["thermometer", "temperature", "hot", "cold"],
     "char": "🌡",
     "category": "objects"
   },
@@ -3436,7 +3436,7 @@
     "category": "objects"
   },
   "umbrella_on_ground": {
-    "keywords": ["beach", "summer"],
+    "keywords": ["beach"],
     "char": "⛱",
     "category": "objects"
   },
@@ -3496,7 +3496,7 @@
     "category": "objects"
   },
   "izakaya_lantern": {
-    "keywords": ["lantern", "halloween", "spooky"],
+    "keywords": ["lantern", "spooky"],
     "char": "🏮",
     "category": "objects"
   },
@@ -3551,7 +3551,7 @@
     "category": "objects"
   },
   "package": {
-    "keywords": ["mail", "gift", "cardboard", "box", "moving", "package"],
+    "keywords": ["mail", "gift", "cardboard", "box", "package"],
     "char": "📦",
     "category": "objects"
   },
@@ -4151,7 +4151,7 @@
     "category": "symbols"
   },
   "a": {
-    "keywords": ["red-square", "a", "letter"],
+    "keywords": ["red-square"],
     "char": "🅰️",
     "category": "symbols"
   },
@@ -4161,22 +4161,22 @@
     "category": "symbols"
   },
   "ab": {
-    "keywords": ["red-square", "alphabet"],
+    "keywords": ["ab"],
     "char": "🆎",
     "category": "symbols"
   },
   "cl": {
-    "keywords": ["alphabet", "words", "red-square"],
+    "keywords": ["cl"],
     "char": "🆑",
     "category": "symbols"
   },
   "o2": {
-    "keywords": ["alphabet", "red-square", "letter"],
+    "keywords": ["o"],
     "char": "🅾️",
     "category": "symbols"
   },
   "sos": {
-    "keywords": ["help", "red-square", "words", "emergency", "911"],
+    "keywords": ["s.o.s"],
     "char": "🆘",
     "category": "symbols"
   },
@@ -4186,7 +4186,7 @@
     "category": "symbols"
   },
   "name_badge": {
-    "keywords": ["badge", "forbid"],
+    "keywords": ["badge"],
     "char": "📛",
     "category": "symbols"
   },
@@ -4206,17 +4206,17 @@
     "category": "symbols"
   },
   "anger": {
-    "keywords": ["angry", "mad"],
+    "keywords": ["angry", "mad", "anger"],
     "char": "💢",
     "category": "symbols"
   },
   "hotsprings": {
-    "keywords": ["bath", "warm", "relax"],
+    "keywords": ["hotsprings"],
     "char": "♨️",
     "category": "symbols"
   },
   "no_pedestrians": {
-    "keywords": ["rules", "crossing", "walking"],
+    "keywords": ["rules", "crossing"],
     "char": "🚷",
     "category": "symbols"
   },
@@ -4231,12 +4231,12 @@
     "category": "symbols"
   },
   "non-potable_water": {
-    "keywords": ["drink", "faucet", "tap"],
+    "keywords": ["non potable"],
     "char": "🚱",
     "category": "symbols"
   },
   "underage": {
-    "keywords": ["18", "drink", "pub", "minor"],
+    "keywords": ["18", "minor"],
     "char": "🔞",
     "category": "symbols"
   },
@@ -4281,12 +4281,12 @@
     "category": "symbols"
   },
   "low_brightness": {
-    "keywords": ["sun", "afternoon", "warm", "summer"],
+    "keywords": ["brightness", "bright"],
     "char": "🔅",
     "category": "symbols"
   },
   "high_brightness": {
-    "keywords": ["sun", "bright"],
+    "keywords": ["brightness", "bright"],
     "char": "🔆",
     "category": "symbols"
   },
@@ -4361,7 +4361,7 @@
     "category": "symbols"
   },
   "cyclone": {
-    "keywords": ["weather", "swirl", "tornado", "vortex", "spiral", "whirlpool", "spin"],
+    "keywords": ["swirl", "tornado", "vortex", "spiral", "whirlpool", "spin"],
     "char": "🌀",
     "category": "symbols"
   },
@@ -4476,7 +4476,7 @@
     "category": "symbols"
   },
   "ng": {
-    "keywords": ["blue-square", "words", "shape", "icon"],
+    "keywords": ["ng"],
     "char": "🆖",
     "category": "symbols"
   },
@@ -4636,7 +4636,7 @@
     "category": "symbols"
   },
   "arrow_up_small": {
-    "keywords": ["blue-square", "triangle", "direction", "point", "forward", "top"],
+    "keywords": ["blue-square", "triangle", "direction", "point", "forward"],
     "char": "🔼",
     "category": "symbols"
   },
@@ -4646,7 +4646,7 @@
     "category": "symbols"
   },
   "arrow_double_up": {
-    "keywords": ["blue-square", "direction", "top"],
+    "keywords": ["blue-square", "direction"],
     "char": "⏫",
     "category": "symbols"
   },
@@ -4721,7 +4721,7 @@
     "category": "symbols"
   },
   "arrow_heading_up": {
-    "keywords": ["blue-square", "direction", "top"],
+    "keywords": ["blue-square", "direction"],
     "char": "⤴️",
     "category": "symbols"
   },
@@ -4751,12 +4751,12 @@
     "category": "symbols"
   },
   "capital_abcd": {
-    "keywords": ["alphabet", "words", "blue-square"],
+    "keywords": ["abcd"],
     "char": "🔠",
     "category": "symbols"
   },
   "symbols": {
-    "keywords": ["blue-square", "music", "note", "ampersand", "percent", "glyphs", "characters"],
+    "keywords": ["symbols"],
     "char": "🔣",
     "category": "symbols"
   },
@@ -4836,27 +4836,27 @@
     "category": "symbols"
   },
   "end": {
-    "keywords": ["words", "arrow"],
+    "keywords": ["end"],
     "char": "🔚",
     "category": "symbols"
   },
   "back": {
-    "keywords": ["arrow", "words", "return"],
+    "keywords": ["back"],
     "char": "🔙",
     "category": "symbols"
   },
   "on": {
-    "keywords": ["arrow", "words"],
+    "keywords": ["on"],
     "char": "🔛",
     "category": "symbols"
   },
   "top": {
-    "keywords": ["words", "blue-square"],
+    "keywords": ["top"],
     "char": "🔝",
     "category": "symbols"
   },
   "soon": {
-    "keywords": ["arrow", "words"],
+    "keywords": ["soon"],
     "char": "🔜",
     "category": "symbols"
   },
@@ -5041,27 +5041,27 @@
     "category": "symbols"
   },
   "flower_playing_cards": {
-    "keywords": ["game", "sunset", "red"],
+    "keywords": ["game", "sunset"],
     "char": "🎴",
     "category": "symbols"
   },
   "thought_balloon": {
-    "keywords": ["bubble", "cloud", "speech", "thinking"],
+    "keywords": ["thought"],
     "char": "💭",
     "category": "symbols"
   },
   "right_anger_bubble": {
-    "keywords": ["caption", "speech", "thinking", "mad"],
+    "keywords": ["caption", "speech", "mad"],
     "char": "🗯",
     "category": "symbols"
   },
   "speech_balloon": {
-    "keywords": ["bubble", "words", "message", "talk", "chatting"],
+    "keywords": ["speech", "message", "talk", "chatting"],
     "char": "💬",
     "category": "symbols"
   },
   "left_speech_bubble": {
-    "keywords": ["words", "message", "talk", "chatting"],
+    "keywords": ["speech", "message", "talk", "chatting"],
     "char": "🗨",
     "category": "symbols"
   },
@@ -6430,6 +6430,16 @@
       "char": "👩👨",
       "category": "_custom"
   },
+  "summer": {
+      "keywords": ["summer"],
+      "char": "🌴☀️🏖😎",
+      "category": "_custom"
+  },
+  "winter": {
+      "keywords": ["winter"],
+      "char": "☃❄️",
+      "category": "_custom"
+  },
   "magic": {
       "keywords": ["magic"],
       "char": "🎩✨🐰",
@@ -6438,6 +6448,11 @@
   "poker": {
       "keywords": ["poker"],
       "char": "♠️♣️♥️♦️",
+      "category": "_custom"
+  },
+  "poker": {
+      "keywords": ["halloween"],
+      "char": "👻🎃🍬",
       "category": "_custom"
   },
   "children": {
