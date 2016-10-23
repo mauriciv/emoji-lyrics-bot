@@ -15,7 +15,7 @@
     "category": "people"
   },
   "joy": {
-    "keywords": ["cry", "tears", "weep", "crying", "haha"],
+    "keywords": ["laugh", "laughing", "joy", "haha"],
     "char": "😂",
     "category": "people"
   },
@@ -281,7 +281,7 @@
     "category": "people"
   },
   "cry": {
-    "keywords": ["tears", "sad", "depressed", "upset", ":'(", "cry", "crying"],
+    "keywords": ["tears", "cry", "crying"],
     "char": "😢",
     "category": "people"
   },
@@ -296,12 +296,12 @@
     "category": "people"
   },
   "sweat": {
-    "keywords": ["hot", "sad", "tired", "exercise", "sweat"],
+    "keywords": ["ouch", "tired"],
     "char": "😓",
     "category": "people"
   },
   "sob": {
-    "keywords": ["cry", "tears", "sad", "upset", "depressed", "sob"],
+    "keywords": ["cry", "tears", "sob"],
     "char": "😭",
     "category": "people"
   },
@@ -401,7 +401,7 @@
     "category": "people"
   },
   "joy_cat": {
-    "keywords": ["animal", "cats", "haha", "happy", "tears"],
+    "keywords": ["animal", "cats", "haha", "happy"],
     "char": "😹",
     "category": "people"
   },
@@ -426,7 +426,7 @@
     "category": "people"
   },
   "crying_cat_face": {
-    "keywords": ["animal", "tears", "weep", "sad", "cats", "upset", "cry"],
+    "keywords": ["animal", "weep", "sad", "cats", "upset", "cry"],
     "char": "😿",
     "category": "people"
   },
@@ -2251,7 +2251,7 @@
     "category": "activity"
   },
   "running_shirt_with_sash": {
-    "keywords": ["pageant", "miss"],
+    "keywords": ["pageant"],
     "char": "🎽",
     "category": "activity"
   },
@@ -3326,7 +3326,7 @@
     "category": "objects"
   },
   "barber": {
-    "keywords": ["hair", "salon", "style", "barber"],
+    "keywords": ["barber"],
     "char": "💈",
     "category": "objects"
   },
