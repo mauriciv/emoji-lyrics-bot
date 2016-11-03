@@ -1131,7 +1131,7 @@
     "category": "animals_and_nature"
   },
   "bird": {
-    "keywords": ["animal", "tweet", "bird"],
+    "keywords": ["animal", "tweet", "bird", "twitter"],
     "char": "🐦",
     "category": "animals_and_nature"
   },
@@ -4571,7 +4571,7 @@
     "category": "symbols"
   },
   "arrow_forward": {
-    "keywords": ["blue-square", "right", "direction", "play"],
+    "keywords": ["blue-square", "direction"],
     "char": "▶️",
     "category": "symbols"
   },
@@ -4606,17 +4606,17 @@
     "category": "symbols"
   },
   "fast_forward": {
-    "keywords": ["blue-square", "play", "speed", "continue"],
+    "keywords": ["blue-square", "fast forward"],
     "char": "⏩",
     "category": "symbols"
   },
   "rewind": {
-    "keywords": ["play", "blue-square"],
+    "keywords": ["rewind", "blue-square"],
     "char": "⏪",
     "category": "symbols"
   },
   "twisted_rightwards_arrows": {
-    "keywords": ["blue-square", "shuffle", "music", "random"],
+    "keywords": ["shuffle", "random"],
     "char": "🔀",
     "category": "symbols"
   },
@@ -4731,7 +4731,7 @@
     "category": "symbols"
   },
   "hash": {
-    "keywords": ["symbol", "blue-square", "twitter"],
+    "keywords": ["symbol", "blue-square"],
     "char": "#️⃣",
     "category": "symbols"
   },
@@ -5016,7 +5016,7 @@
     "category": "symbols"
   },
   "mahjong": {
-    "keywords": ["game", "play", "chinese", "kanji"],
+    "keywords": ["game", "mahjong", "chinese", "kanji"],
     "char": "🀄",
     "category": "symbols"
   },
