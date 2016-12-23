@@ -111,12 +111,12 @@
     "category": "people"
   },
   "stuck_out_tongue_closed_eyes": {
-    "keywords": ["prank", "playful", "mischievous", "tongue"],
+    "keywords": ["playful", "mischievous"],
     "char": "😝",
     "category": "people"
   },
   "stuck_out_tongue": {
-    "keywords": ["prank", "childish", "playful", "mischievous", "smile", "tongue"],
+    "keywords": ["prank", "childish", "playful", "mischievous", "smile"],
     "char": "😛",
     "category": "people"
   },
@@ -561,7 +561,7 @@
     "category": "people"
   },
   "tongue": {
-    "keywords": ["mouth", "playful", "lick", "tongue"],
+    "keywords": [ "lick", "tongue"],
     "char": "👅",
     "category": "people"
   },
