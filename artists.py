@@ -2,7 +2,7 @@ import json
 import sys
 import os
 import pylast
-from secrets import *
+from my_secrets import LF_PASSWORD, LF_SHARED_SECRET, LF_API_KEY, LF_USERNAME
 
 __location__ = os.path.realpath(os.path.join(
     os.getcwd(), os.path.dirname(__file__)))

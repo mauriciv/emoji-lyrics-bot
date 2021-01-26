@@ -20,7 +20,7 @@
 
 import os
 from time import gmtime, strftime, localtime
-import tweepy
+# import tweepy
 from secrets import *
 import translate
 
@@ -41,9 +41,9 @@ def create_tweet():
 def tweet(text):
     """Send out the text as a tweet."""
     # Twitter authentication
-    auth = tweepy.OAuthHandler(C_KEY, C_SECRET)
-    auth.set_access_token(A_TOKEN, A_TOKEN_SECRET)
-    api = tweepy.API(auth)
+    # auth = tweepy.OAuthHandler(C_KEY, C_SECRET)
+    # auth.set_access_token(A_TOKEN, A_TOKEN_SECRET)
+    # api = tweepy.API(auth)
 
     # Send the tweet and log success or failure
     try:
@@ -68,4 +68,7 @@ if __name__ == "__main__":
     t = strftime("%d %b %Y %H:%M:%S", localtime())
     print('At: ' + t)
     tweet_text = create_tweet()
-    tweet(tweet_text)
+    print('')
+    print('Tweet:')
+    print(tweet_text)
+    # tweet(tweet_text)

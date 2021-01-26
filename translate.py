@@ -11,7 +11,8 @@ __location__ = os.path.realpath(os.path.join(
 
 emojis = ''
 
-with open(os.path.join(__location__, 'emojis.json')) as emojis_file:
+# with open(os.path.join(__location__, 'emojis.json')) as emojis_file:
+with open(os.path.join(__location__, 'emoji-en-US.json')) as emojis_file:
     emojis = json.load(emojis_file)
 
 
@@ -46,14 +47,14 @@ def get_tweet_text():
 def get_matched_emojis(word):
     matched_emojis = []
     for emoji in emojis.items():
-        keywords = emoji[1]['keywords']
+        keywords = emoji[1]
         for keyword in keywords:
             if keyword == word:
                 matched_emojis.append(emoji)
-            else:
-                plural1 = keyword + 's'
-                if word == plural1:
-                    matched_emojis.append(pluralize_emoji(emoji))
+            # else:
+            #     plural1 = keyword + 's'
+            #     if word == plural1:
+            #         matched_emojis.append(pluralize_emoji(emoji))
 
     return matched_emojis
 
@@ -73,22 +74,27 @@ def has_replaceable_words(text):
     return False
 
 
-def translate(text):
-    temp_lyrics = text
-    for word in re.split(r'[ \n\?,]', text):
+def translate(text: str):
+    temp_lyrics = ''
+    # for word in re.split(r'[ \n\?,]', text):
+    for word in re.split('(\W)', text):
         word = word.lower()
         matches = get_matched_emojis(word)
 
         if matches:
             random_emoji = random.choice(matches)
-            temp_lyrics = re.sub(
-                r'\b'+word+r'\b', random_emoji[1]['char'], temp_lyrics, flags=re.I)
+            # temp_lyrics = re.sub(
+            #     r'\b' + word + r'\b', word + random_emoji[1]['char'], temp_lyrics, flags=re.I)
+            temp_lyrics = temp_lyrics + word + random_emoji[0]
+        else:
+            temp_lyrics = temp_lyrics + word
+    print(temp_lyrics)
     return temp_lyrics
 
 
 def get_tweetable_lyrics(artist_and_title, song_lyrics):
     song_info_len = len(artist_and_title)
-    remaining_chars_count = 140 - song_info_len
+    remaining_chars_count = 280 - song_info_len
 
     texts_under_char_limit = []
     text_buffer = []
@@ -120,7 +126,7 @@ def get_emoji_count(text):
     emoji_count = 0
     for char in text:
         for emoji in emojis.items():
-            if char == emoji[1]['char']:
+            if char == emoji[0]:
                 emoji_count += 1
     return emoji_count
 

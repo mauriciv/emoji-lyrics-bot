@@ -3,8 +3,8 @@ import random
 import json
 import os
 from pprint import pprint
-from secrets import *
-from PyLyrics import *
+from my_secrets import *
+from lyrics_extractor import SongLyrics
 import sys
 
 __location__ = os.path.realpath(os.path.join(
@@ -15,6 +15,7 @@ def get_lyrics():
     password_hash = pylast.md5(LF_PASSWORD)
     network = pylast.LastFMNetwork(api_key=LF_API_KEY, api_secret=LF_SHARED_SECRET,
                                    username=LF_USERNAME, password_hash=password_hash)
+
     print('Getting artist.')
 
     artists_dict = None
@@ -40,9 +41,10 @@ def get_lyrics():
 
     artist_name = str(random_artist.get_name())
 
+    extract_lyrics = SongLyrics(GCS_API_KEY, GCS_ENGINE_ID)
     if random_track != '':
         print('Getting track lyrics.')
-        lyrics = PyLyrics.getLyrics(artist_name, random_track)
-        return (artist_name, random_track, lyrics)
+        data = extract_lyrics.get_lyrics(artist_name + ' ' + random_track)
+        return (artist_name, random_track, data['lyrics'])
     else:
         print('No track found.')
